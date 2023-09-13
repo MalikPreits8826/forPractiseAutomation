@@ -1,0 +1,5 @@
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "PageObjects.LoginPage.driver" is null
+	at PageObjects.LoginPage.user_enter_username_and_password(LoginPage.java:14)
+	at StepDefination.loginPageSteps.user_enter_username_and_password(loginPageSteps.java:31)
+	at ?.user enter with valid login details(file:///F:/for_practise_cucumber/automation/src/test/java/Features/login.feature:7)
+
